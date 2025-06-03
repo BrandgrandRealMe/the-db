@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Programming',
+    Svg: require('@site/static/img/keyboard.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Comprehensive documentation for various, projects, programming languages, frameworks, 
+        and tools to help you build better software.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '3D Printing Resources',
+    Svg: require('@site/static/img/3d-printer.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        From beginner tutorials to advanced techniques, find everything you need 
+        to master 3D printing and modeling.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Multi-Tech Knowledge Base',
+    Svg: require('@site/static/img/hard-drive.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A growing collection of documentation covering various technologies, 
+        maker projects, and DIY solutions.
       </>
     ),
   },
