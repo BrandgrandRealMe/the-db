@@ -1,3 +1,6 @@
+---
+title: Home
+---
 # The Projects
 Main Projects
 -------------

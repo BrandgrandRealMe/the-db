@@ -1,4 +1,5 @@
 ---
+title: Applications of 3D Printing
 sidebar_position: 8
 ---
 # Applications of 3D Printing

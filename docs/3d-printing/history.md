@@ -1,4 +1,5 @@
 ---
+title: History of 3D Printing
 sidebar_position: 2
 ---
 # History of 3D Printing

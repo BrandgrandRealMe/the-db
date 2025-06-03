@@ -1,4 +1,5 @@
 ---
+title: Software for 3D Printing
 sidebar_position: 6
 ---
 # Software for 3D Printing

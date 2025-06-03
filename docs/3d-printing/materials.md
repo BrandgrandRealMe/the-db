@@ -1,4 +1,5 @@
 ---
+title: 3D Printing Materials
 sidebar_position: 5
 ---
 # 3D Printing Materials

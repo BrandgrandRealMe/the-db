@@ -1,4 +1,5 @@
 ---
+title: 3D Printing Basics
 sidebar_position: 1
 ---
 # 3D Printing Basics
