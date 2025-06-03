@@ -1,3 +1,6 @@
+---
+title: Awesome AI
+---
 # Awesome AI
 Artificial Intelligence (AI) continues to transform how we work, create, and communicate, driving innovation across industries. From automating tasks to enabling creative breakthroughs, AI tools empower users of all skill levels. This document is a living, editable collection of the most impactful AI tools, including Free and Open-Source Software (FOSS) options, designed to help you explore their potential for personal and professional use. We encourage contributions to keep this list up-to-date—add new tools or update existing entries to reflect the evolving AI landscape.
 
