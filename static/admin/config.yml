@@ -12,6 +12,8 @@ collections:
     folder: "docs"
     create: true
     slug: "{{slug}}"
+    nested:
+           depth: 3
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
