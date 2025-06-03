@@ -13,7 +13,7 @@ collections:
     create: true
     slug: "{{slug}}"
     nested:
-           depth: 2
+           depth: 4
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
