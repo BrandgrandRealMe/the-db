@@ -1,7 +1,9 @@
 backend:
   name: github
   branch: main
-  repo: your-username/my-docusaurus-app
+  repo: BrandgrandRealMe/the-db
+  base_url: https://db.brandgrand.rocks
+  auth_endpoint: /api/auth
 media_folder: "static/img"
 public_folder: "/img"
 collections:
