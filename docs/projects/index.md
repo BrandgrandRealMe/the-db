@@ -1,5 +1,5 @@
 ---
-title: Home
+title: The Projects
 ---
 # The Projects
 Main Projects
