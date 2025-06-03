@@ -78,6 +78,6 @@ The following sections outline the main topics covered in this documentation.
     
 *   **Tips:** Check reviews and print settings for optimal results.
 
-### [8. Applications of 3D Printing](applictions)
+### [8. Applications of 3D Printing](applications)
 
 *   **Overview:** 3D printing serves diverse industries and personal projects.
