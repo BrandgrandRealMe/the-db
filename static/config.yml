@@ -1,0 +1,15 @@
+backend:
+  name: github
+  branch: main
+  repo: your-username/my-docusaurus-app
+media_folder: "static/img"
+public_folder: "/img"
+collections:
+  - name: "docs"
+    label: "Docs"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
