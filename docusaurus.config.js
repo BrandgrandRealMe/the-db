@@ -74,6 +74,11 @@ const config = {
             label: 'Home',
           },
           {
+            href: '/discord',
+            label: 'Discord Server',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/BrandgrandRealMe',
             label: 'GitHub',
             position: 'right',
@@ -93,6 +98,15 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/BrandgrandRealMe/the-db',
+              },
+            ],
+          },
+          {
+            title: 'Social',
+            items: [
+              {
+                label: 'Discord',
+                href: '/discord',
               },
             ],
           },
