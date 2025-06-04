@@ -58,6 +58,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'XFKQOSKRJ9',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '0d6b56e82aada7e9a9f818961bf4af14',
+  
+        indexName: 'db-brandgrand',
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
