@@ -28,23 +28,42 @@
   height: auto;
   display: block;
   margin: 0 auto 20px auto; /* Space below SVG */
-  animation: wiggle 1s ease-in-out; /* Wiggle animation on load */
+  transform-origin: bottom; /* Rotate from bottom center */
+  animation: wiggle 10s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite; /* 20-second cycle with smooth easing */
 }
 
 @keyframes wiggle {
   0% {
     transform: rotate(0deg);
   }
-  25% {
-    transform: rotate(3deg); /* Tilt right */
+  0.5% {
+    transform: rotate(0deg); /* Brief pause before wiggle */
   }
-  50% {
+  1% {
+    transform: rotate(4deg); /* Start right tilt */
+  }
+  2% {
+    transform: rotate(2deg); /* Ease back slightly */
+  }
+  3% {
     transform: rotate(0deg); /* Back to center */
   }
-  75% {
-    transform: rotate(-3deg); /* Tilt left */
+  4% {
+    transform: rotate(-2deg); /* Start left tilt */
+  }
+  5% {
+    transform: rotate(-4deg); /* Full left tilt */
+  }
+  6% {
+    transform: rotate(-2deg); /* Ease back */
+  }
+  7% {
+    transform: rotate(0deg); /* Back to center */
+  }
+  8% {
+    transform: rotate(0deg); /* Brief pause after wiggle */
   }
   100% {
-    transform: rotate(0deg); /* End at center */
+    transform: rotate(0deg); /* Stay still for the rest */
   }
 }
