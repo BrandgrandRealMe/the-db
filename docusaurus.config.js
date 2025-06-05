@@ -68,7 +68,7 @@ const config = {
         indexName: 'db-brandgrand',
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/brandons_db_social_card.png',
       navbar: {
         title: 'Brandon\'s DB',
         logo: {
