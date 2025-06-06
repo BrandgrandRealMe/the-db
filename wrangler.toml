@@ -1,16 +1,11 @@
-name = "the-db-worker" # Replace with your desired Worker name
-main = "src/index.js"
-compatibility_date = "2024-01-01" # Use a recent date
+name = "my-docusaurus-worker" # Replace with your desired Worker name
+main = "src/index.js"        # <--- THIS IS YOUR WORKER'S JAVASCRIPT ENTRY POINT
+compatibility_date = "2024-01-01" # Use a recent date for features
 
-[vars]
-# You can add environment variables here if needed
+# No need for explicit [[kv_namespaces]] for assets if using [site]
+# The [site] configuration automatically creates and manages a __STATIC_CONTENT KV namespace
+# and uploads your static files to it.
 
-[[kv_namespaces]]
-binding = "DOCUSAURUS_ASSETS" # This is the variable name your Worker will use to access the assets
-id = "a3a8925ca6f24ccaaf2d8e5a25012c49" # You'll generate this next
-prefix = "" # Keep this empty to serve from the root
-
-# Add the following for static asset serving
 [site]
-bucket = "/build" # IMPORTANT: Adjust this path to your Docusaurus build directory
-entrypoint = "index.html" # Default entry point for your Docusaurus site
+bucket = "../path/to/your/docusaurus/build" # IMPORTANT: Adjust this path to your Docusaurus build directory
+# entrypoint = "index.html" # <-- REMOVE THIS, it's not a valid field here
