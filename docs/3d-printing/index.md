@@ -1,6 +1,6 @@
 ---
 title: 3D Printing Zone
-sidebar_position: 2
+sidebar_position: 3
 ---
 # 3D Printing Zone
 
