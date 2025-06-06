@@ -1,0 +1,16 @@
+name = "the-db-worker" # Replace with your desired Worker name
+main = "src/index.js"
+compatibility_date = "2024-01-01" # Use a recent date
+
+[vars]
+# You can add environment variables here if needed
+
+[[kv_namespaces]]
+binding = "DOCUSAURUS_ASSETS" # This is the variable name your Worker will use to access the assets
+id = "a3a8925ca6f24ccaaf2d8e5a25012c49" # You'll generate this next
+prefix = "" # Keep this empty to serve from the root
+
+# Add the following for static asset serving
+[site]
+bucket = "/build" # IMPORTANT: Adjust this path to your Docusaurus build directory
+entrypoint = "index.html" # Default entry point for your Docusaurus site
