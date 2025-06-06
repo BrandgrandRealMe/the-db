@@ -7,5 +7,5 @@ compatibility_date = "2024-01-01" # Use a recent date for features
 # and uploads your static files to it.
 
 [site]
-bucket = "../path/to/your/docusaurus/build" # IMPORTANT: Adjust this path to your Docusaurus build directory
+bucket = "/build" # IMPORTANT: Adjust this path to your Docusaurus build directory
 # entrypoint = "index.html" # <-- REMOVE THIS, it's not a valid field here
