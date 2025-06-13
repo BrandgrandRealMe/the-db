@@ -1,0 +1,66 @@
+.headerContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.logoWrapper {
+  flex: 0 0 auto;
+  overflow: visible;
+  
+}
+
+.logo {
+  width: 80px; 
+  height: auto; /* Preserves aspect ratio */
+  display: block;
+}
+
+.textWrapper {
+  flex: 1;
+}
+
+.textWrapper h1 {
+  margin: 0;
+}
+
+.textWrapper p {
+  margin: 5px 0 0;
+}
+
+.changelogContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.changelogEntry {
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid var(--ifm-color-primary);
+}
+
+.changelogMeta {
+  color: var(--ifm-color-secondary);
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.changelogContent {
+  line-height: 1.6;
+}
+
+.changelogContent h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.changelogContent ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}

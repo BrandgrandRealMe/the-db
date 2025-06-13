@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+const path = require('path');
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -54,7 +55,9 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    path.resolve(__dirname, 'plugins/changelog-plugin.js'),
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
