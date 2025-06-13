@@ -17,7 +17,7 @@ export default function Changelog() {
   }
 
   return (
-    <Layout title="Changelog" description="View the latest updates and changes.">
+    <Layout title="OptiCore - Changelog" description="View the latest updates and changes.">
       <div className="container margin-vert--lg">
         <div className={styles.headerContainer}>
           <div className={styles.logoWrapper}>
@@ -28,7 +28,7 @@ export default function Changelog() {
             />
           </div>
           <div className={styles.textWrapper}>
-            <h1>Changelog</h1>
+            <h1>OptiCore - Changelog</h1>
             <p>Stay updated with the latest changes, features, and fixes.</p>
           </div>
         </div>

@@ -80,3 +80,9 @@ For issues or feature requests, submit a suggestion using the `/suggestion` comm
 
 ## Privacy and Data
 OptiCore stores minimal user data (e.g., user IDs, giveaway entries, poll votes, reminders, and to-do tasks) in SQLite databases to provide its features. See the [Privacy Policy](PrivacyPolicy) for details on data handling.
+
+## Links
+
+View the changelogs [here](/opticore/changelog)
+
+To invite Click [Here](https://discord.com/oauth2/authorize?client_id=1381801285329883176&scope=bot&permissions=68614)
