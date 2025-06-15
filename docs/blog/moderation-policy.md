@@ -52,7 +52,7 @@ Comments may be reviewed manually or automatically depending on the system in us
 
 ## ⚖️ Appeals
 
-If you believe your comment was removed in error, you may reach out via the site’s contact page or email. We’ll review appeals at our discretion.
+If you believe your comment was removed in error, you may email us at **[brandon@brandgrand.rocks](mailto:brandon@brandgrand.rocks)** with a link to the post and a brief explanation. We’ll review appeals at our discretion.
 
 ---
 
