@@ -57,6 +57,7 @@ const config = {
   ],
   plugins: [
     path.resolve(__dirname, 'plugins/changelog-plugin.js'),
+    path.resolve(__dirname, 'plugins/docusaurus-roadmap'),
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

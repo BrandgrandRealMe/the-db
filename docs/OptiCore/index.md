@@ -85,4 +85,6 @@ OptiCore stores minimal user data (e.g., user IDs, giveaway entries, poll votes,
 
 View the changelogs [here](/opticore/changelog)
 
+View the roadmap [here](/opticore/roadmap)
+
 To invite Click [Here](https://discord.com/oauth2/authorize?client_id=1381801285329883176&scope=bot&permissions=68614)
