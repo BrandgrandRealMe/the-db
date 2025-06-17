@@ -1,6 +1,6 @@
 ---
 title: Welcome Messages
-status: done
+status: completed
 emoji: 👋🏻
 priority: 1
 ---
