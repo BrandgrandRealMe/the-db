@@ -1,6 +1,6 @@
 ---
 title: Goodbye Messages
-status: in-progress
+status: done
 emoji: 👋🏻
 priority: 1
 ---
